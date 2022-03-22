@@ -54,8 +54,7 @@ class Alternativa(models.Model):
     return ' - '.join([self.conteudo, 
         self.pergunta.__str__()[:15]+'...',
         self.pergunta.teste.__str__()])
-
-
+      
 
 
 
